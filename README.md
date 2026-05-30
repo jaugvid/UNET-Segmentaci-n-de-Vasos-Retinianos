@@ -32,3 +32,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+
+## 3. Ejecución
+
+jupyter nbconvert --to notebook --execute UNet_Segmentacion_Vasos_Retinianos_PyTorchv6.ipynb --ExecutePreprocessor.timeout=-1 --output UNet_Segmentacion_Vasos_Retinianos_PyTorchv6_ejecutado.ipynb
