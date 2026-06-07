@@ -25,7 +25,7 @@ Dependencias principales:
 
 Se recomienda crear un entorno virtual.
 
-### Opción A: usando venv
+### usando venv
 
 ```bash
 python -m venv .venv
